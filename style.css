@@ -212,15 +212,24 @@ body {
     /* B&W photo style */
 }
 
-.star-shape {
+.code-badge {
     position: absolute;
-    bottom: -30px;
-    left: -30px;
-    width: 100px;
-    height: 100px;
+    bottom: -20px;
+    left: -20px;
+    width: 70px;
+    height: 70px;
+    background-color: #dafa78;
+    border: var(--border-width) solid var(--border-color);
+    border-radius: 12px;
+    /* Slightly rounded square for brutalism */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    color: var(--text-color);
+    box-shadow: 4px 4px 0 0 var(--border-color);
     z-index: 2;
-    color: #dafa78;
-    filter: drop-shadow(3px 3px 0px #000);
+    transform: rotate(-5deg);
 }
 
 /* Hero Content Right */
